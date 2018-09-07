@@ -208,7 +208,7 @@ $jnoc(document).ready(function(e) {
 <tr><td colspan="3"  style="font-size:18px"><b> &nbsp;ID Soal : <?php echo $_REQUEST['nomer']; ?></b></td>
 
 <td align="right">
-<button type="submit" class="btn btn-success btn-small" id="kirim"><i class='fa fa-save'></i> Update Soal</button>     
+<div class="btn btn-success btn-small" id="kirim"><i class='fa fa-save'></i> Update Soal</div>     
 	<input type="hidden" id="nom" name="nom" value="<?php echo $_REQUEST['nomer']; ?>" />
     <input type="hidden" id="soal" name="soal" value="<?php echo $_REQUEST['soal']; ?>" />
     </strong></td>
